@@ -1,0 +1,30 @@
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+# alacritty terminal specific options
+eval "$(starship init zsh)"
+tmux
+
+# GIT
+alias gc='git checkout'
+alias gs='git status'
+alias gpull='git pull'
+alias gpush='git push'
+alias gfo='git fetch origin'
+alias gb='git branch'
+alias gl='git log --oneline --all --graph --decorate'
+alias gco='git commit'
+alias gdb='git branch -D'
+alias gdiff='git diff'
+alias greset='git reset HEAD~1'
+alias gresets='git reset --soft HEAD~1'
+alias greseth='git reset --hard HEAD~1'
+alias gsquash='git rebase -i'
+
+# OS
+alias sourcez='source ~/.zshrc'
+
+# TMUX
+alias 3tab='tmux split-window -v \; split-window -v && tmux select-layout even-vertical'

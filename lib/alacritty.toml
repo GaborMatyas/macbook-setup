@@ -1,0 +1,26 @@
+import = ["~/.config/alacritty/ayu-mirage-theme.toml"]
+
+# config documentation: https://alacritty.org/config-alacritty.html
+
+[window]
+decorations = "None" # hide the buttons and borders around the complete window 
+opacity = 0.8
+blur = true
+
+[window.padding]
+x = 10
+y = 10
+
+# option_as_alt = "Both"     # the option keys behave as Alt
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+unfocused_hollow = true
+
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+size = 16
+
+[selection]
+save_to_clipboard = true
