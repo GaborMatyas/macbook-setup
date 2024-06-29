@@ -6,6 +6,9 @@ export NVM_DIR="$HOME/.nvm"
 # alacritty terminal specific options
 eval "$(starship init zsh)"
 tmux
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias ls="eza --icons=always" # it has to be fixed, the icons are not displayed
 
 # GIT
 alias gc='git checkout'
@@ -22,6 +25,7 @@ alias greset='git reset HEAD~1'
 alias gresets='git reset --soft HEAD~1'
 alias greseth='git reset --hard HEAD~1'
 alias gsquash='git rebase -i'
+alias gwl='git worktree list'
 
 # OS
 alias sourcez='source ~/.zshrc'
