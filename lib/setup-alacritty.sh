@@ -88,7 +88,7 @@ y | Y)
     echo "-> Setting up TMUX to handle multiple terminal tabs in one window"
     brew install tmux
 
-    # copy .tmux.conf file from lib folder to mac's home directory
+    # TODO implement copy .tmux.conf file from lib folder to mac's home directory
     ;;
 *)
     echo "Skipping Alacritty terminal installation..."
