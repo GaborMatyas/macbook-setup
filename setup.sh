@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 echo "Starting Setup script for setting up a new macos machine"
 
 cd || exit
@@ -7,10 +6,6 @@ PWD=$(pwd)
 echo "The current working directory is: $PWD"
 
 DIR="$(dirname "$0")"
-# if [ "$EUID" -ne 0 ]; then
-#     echo "Please run as root, use 'sudo' for the script."
-#     exit
-# fi
 
 source "$DIR/lib/check-homebrew.sh"
 source "$DIR/lib/install-packages.sh"

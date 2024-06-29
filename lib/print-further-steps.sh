@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 LIBDIR="$(dirname "${BASH_SOURCE[0]}")"
-# Specify the filename
 filename="$LIBDIR/further-steps.txt"
 
 # Check if the file exists

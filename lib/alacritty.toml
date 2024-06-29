@@ -17,7 +17,6 @@ y = 10
 style = { shape = "Block", blinking = "Always" }
 unfocused_hollow = true
 
-
 [font]
 normal.family = "MesloLGS Nerd Font Mono"
 size = 16
