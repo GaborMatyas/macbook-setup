@@ -46,7 +46,10 @@ The script will ask your approval for the different steps during the installatio
 ### MacOS Specific Packages
 - [Rectangle](https://rectangleapp.com): Position your windows with keyboard shortcuts, similar to the window snapping feature in Windows OS.
 - [AltTab](https://alt-tab-macos.netlify.app): Bring the power of Windows' "Alt-Tab" window switching to macOS, allowing easy navigation between apps.
+
 - [Stats](https://github.com/exelban/stats): A simple macOS system monitor for your menubar, providing detailed information about your system's performance. ([Setp by step youtube video](https://www.youtube.com/watch?t=1111&v=GK7zLYAXdDs&feature=youtu.be))
+![](./screenshots/stats.png)
+
 - [Raycast](https://www.raycast.com): An alternative to Spotlight search, Raycast enhances your workflow by handling file/app opening, providing a calculator, and many more features.
 
 ## Custom Mac Config
@@ -63,6 +66,7 @@ The script will ask your approval for the different steps during the installatio
 - Date and time: Hide Date in Menubar, disable AM/PM in Clock, Hide Clock and Battery Icons in Menubar
 
 ## Alacritty terminal
+![](./screenshots/alacritty.png)
 
 ### Installed extras
 - Nerd fonts (`font-meslo-lg-nerd-font`)
