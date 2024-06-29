@@ -4,7 +4,7 @@ read -p "Do you want to install Alacrity as your terminal? (y/n) " answer
 case ${answer:0:1} in
 y | Y)
     echo "Installing Alacritty terminal..."
-    # brew install --cask alacritty --no-quarantine
+    brew install --cask alacritty --no-quarantine
 
     LIBDIR="$(dirname "${BASH_SOURCE[0]}")"
 
