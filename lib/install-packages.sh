@@ -2,7 +2,6 @@
 
 PACKAGES=(
     git
-    maccy
 )
 
 echo "The following packages are available for installation:"
