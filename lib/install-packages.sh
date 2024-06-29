@@ -14,7 +14,7 @@ read -p "Do you want to install these applications? (y/n) " answer
 case ${answer:0:1} in
 y | Y)
     echo "Installing the packages..."
-    # brew install --cask ${CASKS[@]}
+    brew install ${PACKAGES[@]}
     echo "Packages are installed"
     ;;
 *)

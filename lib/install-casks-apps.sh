@@ -12,7 +12,7 @@ CASKS=(
     google-chrome
     microsoft-edge
     alt-tab
-    raycast # alternative for Spotlight search, handling file/app opening, calculator https://www.youtube.com/watch?v=JsZpAXFj8vM
+    raycast # alternative for Spotlight search, handling file/app opening, calculator and many more https://www.youtube.com/watch?v=JsZpAXFj8vM
     stats   # manage the menu bar info section such as clock, timezone, battery percentage, visibility of apps, network and hardware details
 )
 
@@ -26,8 +26,8 @@ case ${answer:0:1} in
 y | Y)
     echo "Installing the apps..."
     brew tap homebrew/cask-versions
-    
-    # brew install --cask ${CASKS[@]}
+
+    brew install --cask ${CASKS[@]}
     echo "Apps are installed with Cask brew extension"
     ;;
 *)
